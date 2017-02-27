@@ -15,15 +15,15 @@ x = np.array([
 X = tf.constant(x)
 
 
-def maxpool(input):
-    # TODO: Set the ksize (filter size) for each dimension (batch_size, height, width, depth)
-    ksize = [?, ?, ?, ?]
-    # TODO: Set the stride for each dimension (batch_size, height, width, depth)
-    strides = [?, ?, ?, ?]
-    # TODO: set the padding, either 'VALID' or 'SAME'.
-    padding = ?
-    # https://www.tensorflow.org/versions/r0.11/api_docs/python/nn.html#max_pool
-    return tf.nn.max_pool(input, ksize, strides, padding)
-
-
-out = maxpool(X)
+# def maxpool(input):
+#     # TODO: Set the ksize (filter size) for each dimension (batch_size, height, width, depth)
+#     ksize = [?, ?, ?, ?]
+#     # TODO: Set the stride for each dimension (batch_size, height, width, depth)
+#     strides = [?, ?, ?, ?]
+#     # TODO: set the padding, either 'VALID' or 'SAME'.
+#     padding = ?
+#     # https://www.tensorflow.org/versions/r0.11/api_docs/python/nn.html#max_pool
+#     return tf.nn.max_pool(input, ksize, strides, padding)
+#
+#
+# out = maxpool(X)
